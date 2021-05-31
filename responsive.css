@@ -21,3 +21,33 @@
         margin: 0 auto;
     }
 }
+@media (max-width: 510px) {
+    .banner{
+        height: 58vh;
+    }
+}
+@media (max-width:450px ) {
+    .banner-head-text {
+        margin-top: 0;
+    }
+    .banner-head-text h2 {
+        font-size: 32px;
+    }
+    .profiles {
+        text-align: center;
+    }
+    .profiles-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+@media (max-width:350px) {
+    .banner-head-text h2 {margin: 15px 0;}
+    }
+@media (max-width: 320px){
+    .banner {
+        height: 90vh;
+    }
+}
